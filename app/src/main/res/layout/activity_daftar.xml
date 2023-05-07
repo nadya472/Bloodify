@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarActivity"
+    android:background="@color/background"
+    android:id="@+id/daftar">
+
+    <RelativeLayout
+        style="@style/layout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        >
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tagline"
+            style="@style/tagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/back"
+            android:text="@string/tagline" />
+
+        <TextView
+            android:id="@+id/tagline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tagline"
+            android:width="130dp"
+            android:fontFamily="@font/josefinsans_light"
+            android:importantForAccessibility="no"
+            android:paddingTop="5dp"
+            android:text="Donate blood, save life!"
+            android:textColor="@color/mainfontcolor"
+            android:textSize="13dp"
+            tools:ignore="TextSizeCheck" />
+
+        <TextView
+            android:id="@+id/namalengkap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tagline2"
+            android:layout_marginTop="52dp"
+            android:fontFamily="@font/josefinsans_regular"
+            android:text="Nama Lengkap"
+            android:textColor="@color/mainfontcolor"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/colinnama"
+            style="@style/columninput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/namalengkap"
+            android:inputType="text"
+            android:hint=" Masukkan Nama Lengkap Anda"
+            android:paddingStart="5dp"
+            tools:ignore="TextSizeCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/colinnama"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/josefinsans_regular"
+            android:text="Email"
+            android:textColor="@color/mainfontcolor"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/colinemail"
+            style="@style/columninput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email"
+            android:paddingStart="5dp"
+            android:inputType="text"
+            android:hint=" @gmail.com/@mail.com"
+            tools:ignore="TextSizeCheck,TouchTargetSizeCheck" />
+
+        <TextView
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/colinemail"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/josefinsans_regular"
+            android:text="Password"
+            android:textColor="@color/mainfontcolor"
+            android:textSize="15dp"
+            tools:ignore="TextSizeCheck" />
+
+        <EditText
+            android:id="@+id/colinpassword"
+            style="@style/columninput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/password"
+            android:inputType="text"
+            android:hint=" * * * * * * * *"
+            android:paddingStart="5dp"
+            tools:ignore="TextSizeCheck,TouchTargetSizeCheck" />
+
+
+        <Button
+            android:id="@+id/buttonbergabung"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/ask"
+            android:background="@drawable/button_shape"
+            android:text="BERGABUNG" />
+
+        <TextView
+            android:id="@+id/ask"
+            style="@style/asklogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            android:layout_alignParentBottom="true"
+            android:text="@string/asklogin"
+            tools:ignore="TextSizeCheck" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

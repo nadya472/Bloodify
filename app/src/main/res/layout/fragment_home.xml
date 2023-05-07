@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        style="@style/layout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        tools:ignore="ExtraText">
+
+        <LinearLayout
+            android:id="@+id/bginfopengguna"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="200dp"
+            android:background="@drawable/top_background_shape">
+            <LinearLayout
+                android:id="@+id/lay1pengguna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/pengguna"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/halo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:adjustViewBounds="true"
+                        android:fontFamily="@font/josefinsans_regular"
+                        android:text="Halo"
+                        android:textColor="#FCFCFC"
+                        android:textSize="15dp"
+                        tools:ignore="TextSizeCheck" />
+
+                    <TextView
+                    android:id="@+id/namapengguna"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginStart="20dp"
+                    android:textSize="20dp"
+                    android:textColor="#FCFCFC"
+                    android:fontFamily="@font/josefinsans_bold"
+                    android:text="Veronica Park!"
+                    android:adjustViewBounds="true"/>
+
+                    <TextView
+                        android:id="@+id/nomorid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:adjustViewBounds="true"
+                        android:fontFamily="@font/josefinsans_regular"
+                        android:text="000894271909"
+                        android:textColor="#FCFCFC"
+                        android:textSize="12dp"
+                        tools:ignore="TextSizeCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/goldarkolom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="20dp">
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_blood_type"
+                        android:layout_width="90dp"
+                        android:layout_height="50dp"
+                        android:background="@drawable/second_background_shape"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <TextView
+                            android:id="@+id/text_view_blood_type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Golongan Darah"
+                            android:textSize="6sp" />
+
+                        <TextView
+                            android:id="@+id/text_view_blood_type_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="O+"
+                            android:layout_gravity="center"
+                            android:textSize="25sp"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linear_layout_gender_age_weight"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="3dp">
+
+
+                        <TextView
+                            android:id="@+id/text_view_gender_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Laki-laki"
+                            android:textSize="8sp"
+                            android:textColor="#FCFCFC"
+                            android:layout_marginEnd="5dp"/>
+
+                        <TextView
+                            android:id="@+id/text_view_age_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="24 Tahun"
+                            android:textSize="8sp"
+                            android:textColor="#FCFCFC"
+                            android:layout_marginEnd="5dp"/>
+
+                        <TextView
+                            android:id="@+id/text_view_weight_value"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="60 Kg"
+                            android:textSize="8sp"
+                            android:textColor="#FCFCFC"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lay2pengguna"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <LinearLayout
+                    android:id="@+id/linear_layout_last_donate"
+                    android:layout_width="90dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/second_background_shape"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_marginStart="20dp">
+
+                    <TextView
+                        android:id="@+id/text_view_last_donate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Donor Terakhir"
+                        android:textSize="6sp" />
+
+                    <TextView
+                        android:id="@+id/text_view_last_donate_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="03 Maret 2023"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"/>
+
+
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/linear_layout_soon_donate"
+                    android:layout_width="90dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/second_background_shape"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_marginStart="20dp">
+
+                    <TextView
+                        android:id="@+id/text_view_soon_donate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Donor Kembali"
+                        android:textSize="6sp" />
+
+                    <TextView
+                        android:id="@+id/text_view_soon_donate_value"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="03 Maret 2023"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:textSize="12sp"
+                        android:textStyle="bold"/>
+
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lay3data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+                <LinearLayout
+                    android:id="@+id/linear_layout_update"
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/second_background_shape"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_gravity="right"
+                    >
+
+                    <TextView
+                        android:id="@+id/text_view_update"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Update Data"
+                        android:textSize="6sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</FrameLayout>

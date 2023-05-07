@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TipeGoldarActivity">
+
+    <RelativeLayout
+        style="@style/layout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:id="@+id/tipegoldar"
+            style="@style/tagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/back"
+            android:text="@string/tipegoldar"
+            />
+
+        <LinearLayout
+            android:id="@+id/goldar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/tipegoldar"
+            android:layout_marginTop="50dp">
+
+            <ImageButton
+                android:id="@+id/goldar_aImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="100dp"
+                android:maxHeight="200dp"
+                android:scaleType="fitCenter"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/goldar_a"
+                android:background="#00000000"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/goldar_bImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:layout_marginStart="50dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="100dp"
+                android:maxHeight="200dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/goldar_b"
+                android:background="#00000000"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/goldar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="19dp"
+            android:layout_marginEnd="27dp"
+            android:layout_below="@+id/goldar1">
+
+            <ImageButton
+                android:id="@+id/goldar_abImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:maxWidth="100dp"
+                android:maxHeight="200dp"
+                android:scaleType="fitCenter"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/goldar_ab"
+                android:background="#00000000"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/goldar_oImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="17dp"
+                android:adjustViewBounds="true"
+                android:maxWidth="100dp"
+                android:maxHeight="200dp"
+                android:scaleType="fitCenter"
+                android:layout_marginStart="50dp"
+                android:src="@drawable/goldar_o"
+                android:background="#00000000"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/rhesusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/goldar2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/josefinsans_semibold"
+            android:maxWidth="180dp"
+            android:maxHeight="15dp"
+            android:text="Rhesus Golongan Darah kamu?"
+            android:textSize="12dp"
+            tools:ignore="TextSizeCheck" />
+
+        <LinearLayout
+            android:id="@+id/rhesusImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/rhesusText">
+
+            <ImageButton
+                android:id="@+id/rhesus_positifImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="25dp"
+                android:adjustViewBounds="true"
+                android:background="#00000000"
+                android:maxWidth="80dp"
+                android:maxHeight="180dp"
+                android:minHeight="48dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/rhesus_positif"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+            <ImageButton
+                android:id="@+id/rhesus_negatifImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:adjustViewBounds="true"
+                android:background="#00000000"
+                android:maxWidth="80dp"
+                android:maxHeight="180dp"
+                android:scaleType="fitCenter"
+                android:layout_marginStart="60dp"
+                android:src="@drawable/rhesus_negatif"
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/unknowngoldarImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rhesusImageButton"
+            android:layout_marginTop="30dp"
+            android:adjustViewBounds="true"
+            android:maxWidth="300dp"
+            android:maxHeight="300dp"
+            android:scaleType="fitCenter"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/goldar_unknown"
+            android:background="#00000000"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+        <Button
+            android:id="@+id/buttonlanjut"
+            style="@style/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/button_shape"
+            android:text="LANJUT" />
+    </RelativeLayout>
+
+</RelativeLayout>

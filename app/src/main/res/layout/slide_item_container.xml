@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/landingpageimg"
+        style="@style/landingpageimg"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:contentDescription="@string/app_name"
+        android:maxWidth="330dp"
+        android:maxHeight="230dp" />
+
+    <TextView
+        android:id="@+id/primary_desc"
+        style="@style/primary_landingpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title Text" />
+
+    <TextView
+        android:id="@+id/desc"
+        style="@style/desc_landingpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description Text"/>
+
+
+</LinearLayout>

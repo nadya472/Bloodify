@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".GetStartedActivity"
+    android:gravity="center_vertical"
+    android:id="@+id/get_started"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:layout_width="203dp"
+        android:layout_height="500dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp">
+
+        <ImageView
+            android:id="@+id/logoimg"
+            style="@style/logoimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/wordmark"
+            style="@style/wordmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logoimg"
+            android:layout_alignParentEnd="true"
+            android:text="@string/wordmark"/>
+
+        <TextView
+            android:id="@+id/decswordmark"
+            style="@style/desc_wordmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/wordmark"
+            android:layout_alignParentEnd  ="true"
+            android:text="@string/slogan"/>
+
+        <Button
+            android:id="@+id/buttonlogin"
+            style="@style/button"
+            android:background="@drawable/button_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/decswordmark"
+            android:layout_marginTop="62dp"
+            android:text="LOGIN"/>
+
+        <Button
+            android:id="@+id/buttonregist"
+            style="@style/button"
+            android:background="@drawable/button_shape"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/buttonlogin"
+            android:layout_marginTop="29dp"
+            android:text="DAFTAR"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

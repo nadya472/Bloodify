@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Bloodify</string>
+    <string name="landingpage_1">Mulai Gaya HIDUP SEHAT dengan DONOR DARAH</string>
+    <string name="desc_landingpage_1">Temukan jadwal dan event donor darah terdekat dan mulai menjaga kesehatan dengan donor darah rutin </string>
+    <string name="landingpage_2">Mereka SELAMAT, kita SEHAT</string>
+    <string name="desc_landingpage_2">Tahukan kamu bahwa melakukan donor darah akan mengurangi resiko penyakit Jantung?
+Dan yang paling utama adalah kalian menyelamatkan nyawa pasien!</string>
+    <string name="landingpage_3">Dapatkan REWARD atas kebaikan hati mu!</string>
+    <string name="desc_landingpage_3">Kumpulkan point mu, dan dapatkan penawaran menarik dari kami!</string>
+    <string name="wordmark">Bloodify</string>
+    <string name="slogan">Join the Bloodify community and give the gift of life</string>
+    <string name="tagline">Ayo bergabung bersama <font color="#EF5A59">BLOODLINERS</font> lainnya!
+    </string>
+    <string name="tagline3">Selamat datang kembali <font color="#EF5A59">BLOODLINERS!</font></string>
+
+    <string name="asklogin">Sudah memiliki akun <font color="#EF5A59">BLOODIFY?</font> <font color="#2D16BB"> Masuk</font> </string>
+    <string name="askdaftar">Belum memiliki akun <font color="#EF5A59">BLOODIFY?</font> <font color="#2D16BB"> Daftar</font> </string>
+    <string name="tipegoldar">Pilih tipe Golongan Darah kamu ya!</string>
+    <string name="lupapassword">Tulis alamat email untuk mengatur ulang password</string>
+    <string name="sendnewpass">Password baru sudah terkirim ke alamat email kamu! </string>
+    <string name="sendnewpass2"> <font color="#2D16BB">Login kembali</font></string>
+    <string name="sendnewpass3">Tidak menerima email? <font color="#2D16BB"> Kirim ulang</font> </string>
+    <string name="title_activity_bottom_navigasi">BottomNavigasiActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_button_navigasi">ButtonNavigasiActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

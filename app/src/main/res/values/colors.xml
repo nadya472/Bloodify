@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="red">#EF5A59</color>
+    <color name="blue">#5995EF</color>
+    <color name="wl">#FCFCFC</color>
+    <color name="grey">#D9D9D9</color>
+    <color name="yellow">#F1B53F</color>
+    <color name="greyo">#5D6371</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#FCFCFC</color>
+    <color name="mainfontcolor">#000000</color>
+    <color name="link">#2D16BB</color>
+    <color name="bloodliners">#EF5A59</color>
+
+    //indicator color
+    <color name="inactive">#C4C4C4</color>
+    <color name="active">#EF5A59</color>
+
+</resources>
